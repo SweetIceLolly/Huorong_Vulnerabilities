@@ -6,13 +6,21 @@
 
 ## 警告
 
-创建该仓库的目的是测试及学习用途。对于您如何使用这个仓库里的内容，本人概不负责。请不要把该仓库里的内容用于任何不正当的用途。您只应该在自己的设备上或者你的虚拟机中测试该仓库里面涉及到的技术。
+创建该仓库的目的是测试及学习用途。对于您如何使用这个仓库里的内容，本人概不负责。请不要把该仓库里的内容用于任何不正当的用途。您只应该在自己的设备上或者自己的虚拟机中测试该仓库里面涉及到的技术。
 
 ## 测试环境
 
 火绒安全软件版本: 5.0.39.7
 
 操作系统: Windows 10 1909 x64
+
+## 官方回应
+
+2020年3月17日: 将漏洞反馈给火绒官方
+
+2020年3月19日: 官方确认漏洞
+
+帖子: http://bbs.huorong.cn/thread-67135-1-1.html
 
 ## 漏洞
 
@@ -41,6 +49,14 @@ This repository is created for testing and educational purposes. I do not take a
 Huorong Internet Security Version: 5.0.39.7
 
 Operating System: Windows 10 1909 x64
+
+## Official Response
+
+2020 Mar 17: Vulnerabilities reported to the official
+
+2020 Mar 19: Vulnerabilities confirmed officially
+
+The post: http://bbs.huorong.cn/thread-67135-1-1.html
 
 ## Vulnerabilities
 

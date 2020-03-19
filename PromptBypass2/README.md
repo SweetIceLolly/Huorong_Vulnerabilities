@@ -2,9 +2,9 @@
 
 ## 描述
 
-这个方法主要是利用了火绒的用户模式(user-mode)进程和其保护驱动通讯的漏洞。当保护驱动拦截到敏感操作的时候会通知用户模式进程弹出提示框，而当用户选择提示框上面的“允许”或者“组织”的时候用户模式进程会使用`WriteFile`函数通知保护驱动用户选择的操作。第三方程序能够成功打开它们用来通讯的设备，并能够伪造用户的回应发给保护驱动。
+这个方法主要是利用了火绒的用户模式(user-mode)进程和其保护驱动通讯的漏洞。当保护驱动拦截到敏感操作的时候会通知用户模式进程弹出提示框，而当用户选择提示框上面的“允许”或者“阻止”的时候用户模式进程会使用`WriteFile`函数通知保护驱动用户选择的操作。第三方程序能够成功打开它们用来通讯的设备，并能够伪造用户的回应发给保护驱动。
 
-源码: [PromptBypass.c](/PromptBypass.c)
+源码: [PromptBypass.c](PromptBypass.c)
 
 # Bypass Protection Prompt
 
@@ -12,7 +12,7 @@
 
 This method uses a flaw in the communication between Huorong user-mode process and its protection driver. When the protection driver intercepts sensitive operations, it will ask the user-mode process to popup the prompt. When the user chooses "Allow" and "Decline" on the prompt window, the user-mode process will use `WriteFile` to tell the user's choice to the protection driver. A third-party program can open the device they used to communicate, fake the user's response, and send it to the protection driver.
 
-Source code: [PromptBypass.c](/PromptBypass.c)
+Source code: [PromptBypass.c](PromptBypass.c)
 
 # 分析 / Analysis
 

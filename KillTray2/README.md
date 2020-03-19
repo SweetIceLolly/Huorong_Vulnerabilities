@@ -4,7 +4,7 @@
 
 这是一个比较常见的攻击方式 - 对火绒安全的窗口发送大量的窗口消息，导致其崩溃。由于HipsDaemon.exe没有创建窗口，故不能以此方式崩掉它。
 
-源码: [KillHipsTray.c](/KillHipsTray.c)
+源码: [KillHipsTray.c](KillHipsTray.c)
 
 # Termiante HipsTray.exe
 
@@ -12,7 +12,7 @@
 
 This is a relatively common attack method - sending a lot of window messages to Huorong Internet Security window to crash it. This method cannot crash HipsDaemon.exe because it does not create a window.
 
-Source code: [KillHipsTray.c](/KillHipsTray.c)
+Source code: [KillHipsTray.c](KillHipsTray.c)
 
 # 分析 / Analysis
 
