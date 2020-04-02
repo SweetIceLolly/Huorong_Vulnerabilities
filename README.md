@@ -20,6 +20,8 @@
 
 2020年3月19日: 官方确认漏洞
 
+2020年3月31日: 官方指除了PromptBypass1以外的漏洞均在火绒安全5.0.41.0修复。对于PromptBypass1，官方指“窗口程序无法知道消息来源，所以无法过滤” (请见帖子)。
+
 帖子: http://bbs.huorong.cn/thread-67135-1-1.html
 
 ## 漏洞
@@ -55,6 +57,8 @@ Operating System: Windows 10 1909 x64
 2020 Mar 17: Vulnerabilities reported to the official
 
 2020 Mar 19: Vulnerabilities confirmed officially
+
+2020 Mar 31: The official says that all vulnerabilities except PromptBypass1 are fixed in Huorong Internet Security version 5.0.41.0. As for PromptBypass1, the official says that "The window cannot detect the source of the message, thus it cannot be filtered" (Please see the post).
 
 The post: http://bbs.huorong.cn/thread-67135-1-1.html
 
