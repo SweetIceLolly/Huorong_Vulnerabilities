@@ -30,8 +30,8 @@
 
 | 文件夹 | 需要管理员权限 | 描述 | 已修复 |
 |-----------------------------------|----------------|------------------------------------------|----------|
-| [KillHipsDaemon](/KillHipsDaemon) | 是 | 火绒防护程序HipsDaemon.exe的自我保护漏洞 | √
-| [KillTray1](/KillTray1) | 是 | 火绒托盘程序HipsTray.exe的自我保护漏洞 | √
+| [KillHipsDaemon](/KillHipsDaemon) | 是 | 火绒防护程序HipsDaemon.exe的自我保护漏洞 | ×
+| [KillTray1](/KillTray1) | 是 | 火绒托盘程序HipsTray.exe的自我保护漏洞 | ×
 | [KillTray2](/KillTray2) | 否 | 火绒托盘程序HipsTray.exe的自我保护漏洞 | √
 | [PromptBypass1](/PromptBypass1) | 否 | 火绒的防护弹窗的漏洞 | ×
 | [PromptBypass2](/PromptBypass2) | 否 | 火绒防护程序的通讯漏洞 | √
@@ -68,8 +68,8 @@ Please enter the folders to see corresponding vulnerability details
 
 | Folder | Administrative Privilege Required | Description | Repaired |
 |-----------------------------------|----------------|------------------------------------------|----------|
-| [KillHipsDaemon](/KillHipsDaemon) | Yes | Self-protection vulnerability of Huorong Internet Security daemon process HipsDaemon.exe | √
-| [KillTray1](/KillTray1) | Yes | Self-protection vulnerability of Huorong Internet Security Tray process HipsTray.exe | √
+| [KillHipsDaemon](/KillHipsDaemon) | Yes | Self-protection vulnerability of Huorong Internet Security daemon process HipsDaemon.exe | ×
+| [KillTray1](/KillTray1) | Yes | Self-protection vulnerability of Huorong Internet Security Tray process HipsTray.exe | ×
 | [KillTray2](/KillTray2) | No | Self-protection vulnerability of Huorong Internet Security Tray process HipsTray.exe | √
 | [PromptBypass1](/PromptBypass1) | No | Huorong popup prompt vulnerability | ×
 | [PromptBypass2](/PromptBypass2) | No | Communication vulnerability of Huorong Internet Security | √
